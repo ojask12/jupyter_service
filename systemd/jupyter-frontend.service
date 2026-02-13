@@ -1,0 +1,18 @@
+[Unit]
+Description=Jupyter Service Frontend (Streamlit in screen)
+After=network.target jupyter-backend.service
+
+[Service]
+Type=forking
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/jupyter_service
+
+ExecStart=/usr/bin/screen -dmS jupyter-frontend bash -c "source /home/ubuntu/.venv/bin/activate && exec streamlit run /home/ubuntu/jupyter_service/streamlit_frontend/streamlit_app.py --server.port 8900 --server.address 0.0.0.0 --server.headless true"
+ExecStop=/usr/bin/screen -S jupyter-frontend -X quit
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

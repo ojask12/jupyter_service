@@ -1,0 +1,21 @@
+[Unit]
+Description=Jupyter Service Backend (FastAPI in screen)
+After=network.target
+
+[Service]
+Type=forking
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/jupyter_service
+
+Environment="PATH=/usr/bin:/bin:/home/ubuntu/.venv/bin"
+Environment="PYTHONPATH=/home/ubuntu/jupyter_service"
+
+ExecStart=/usr/bin/screen -dmS jupyter-backend /bin/bash -c "exec /home/ubuntu/.venv/bin/uvicorn api.main:app --host 127.0.0.1 --port 8000 --reload"
+ExecStop=/usr/bin/screen -S jupyter-backend -X quit
+
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

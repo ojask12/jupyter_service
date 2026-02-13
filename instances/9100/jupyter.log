@@ -1,0 +1,41 @@
+[W 2026-02-05 11:30:45.918 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[W 2026-02-05 11:30:45.918 ServerApp] ServerApp.password config is deprecated in 2.0. Use PasswordIdentityProvider.hashed_password.
+[I 2026-02-05 11:30:46.415 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-02-05 11:30:46.420 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2026-02-05 11:30:46.425 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-02-05 11:30:46.425 ServerApp] jupyterlab_tabular_data_viewer_extension | extension was successfully linked.
+[I 2026-02-05 11:30:46.430 ServerApp] notebook | extension was successfully linked.
+[I 2026-02-05 11:30:46.690 ServerApp] notebook_shim | extension was successfully linked.
+[I 2026-02-05 11:30:46.707 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-02-05 11:30:46.709 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-02-05 11:30:46.710 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-02-05 11:30:46.713 LabApp] JupyterLab extension loaded from /home/ubuntu/.venv/lib/python3.12/site-packages/jupyterlab
+[I 2026-02-05 11:30:46.713 LabApp] JupyterLab application directory is /home/ubuntu/.venv/share/jupyter/lab
+[I 2026-02-05 11:30:46.713 LabApp] Extension Manager is 'pypi'.
+[I 2026-02-05 11:30:46.783 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-02-05 11:30:46.784 ServerApp] Registered jupyterlab_tabular_data_viewer_extension server extension
+[I 2026-02-05 11:30:46.784 ServerApp] jupyterlab_tabular_data_viewer_extension | extension was successfully loaded.
+[I 2026-02-05 11:30:46.788 ServerApp] notebook | extension was successfully loaded.
+[I 2026-02-05 11:30:46.789 ServerApp] Serving notebooks from local directory: /home/ubuntu/jupyter_service/instances/9100/notebooks
+[I 2026-02-05 11:30:46.789 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2026-02-05 11:30:46.789 ServerApp] http://ip-172-31-47-81:9100/lab
+[I 2026-02-05 11:30:46.789 ServerApp]     http://127.0.0.1:9100/lab
+[I 2026-02-05 11:30:46.789 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2026-02-05 11:30:46.812 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-02-05 11:31:02.656 ServerApp] 302 GET / (@42.104.221.5) 0.53ms
+[W 2026-02-05 11:31:02.753 ServerApp] Clearing invalid/expired login cookie username-13-232-82-145-9100
+[I 2026-02-05 11:31:02.754 LabApp] 302 GET /lab? (@42.104.221.5) 1.20ms
+[I 2026-02-05 11:31:04.802 ServerApp] User 3edaf43318af4c1c96023df40656ffbe logged in.
+[I 2026-02-05 11:31:04.803 ServerApp] 302 POST /login?next=%2Flab%3F (3edaf43318af4c1c96023df40656ffbe@42.104.221.5) 72.53ms
+[W 2026-02-05 11:31:06.448 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-02-05 11:31:09.310 LabApp] 302 GET /lab? (@49.44.82.164) 0.59ms
+[I 2026-02-05 11:31:09.651 LabApp] 302 GET /lab? (@49.44.76.70) 0.46ms
+[I 2026-02-05 13:49:56.519 ServerApp] 302 GET / (@195.184.76.159) 0.54ms
+[W 2026-02-05 13:51:24.388 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2026-02-05 13:56:12.092 LabApp] 302 GET /lab? (@91.230.168.205) 0.58ms
+[I 2026-02-05 14:03:12.270 LabApp] 302 GET /lab? (@195.184.76.77) 0.52ms
+[I 2026-02-05 14:33:27.682 ServerApp] 302 GET / (@91.230.168.26) 0.53ms
+[I 2026-02-05 14:35:15.109 LabApp] 302 GET /lab? (@195.184.76.229) 0.62ms
+[I 2026-02-05 14:37:13.632 LabApp] 302 GET /lab? (@91.230.168.123) 0.57ms
+[C 2026-02-05 17:00:47.821 ServerApp] received signal 15, stopping
+[I 2026-02-05 17:00:47.822 ServerApp] Shutting down 6 extensions

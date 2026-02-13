@@ -1,0 +1,9 @@
+[docs/WhatsApp%20Image%202026-01-19%20at%2012.49.46.jpeg]
+SOP App flow (Highly Confidential). For your reference only.
+
+Integration:
+* O365/AD
+* SOP knowledge base on Intranet portal
+* HRMS System
+
+https://xoralia.com/what-is-sop-management-software/

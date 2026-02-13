@@ -1,0 +1,27 @@
+{
+  "9000": {
+    "tag": "Untagged",
+    "last_used": "2026-01-28T09:46:56.276254+00:00",
+    "times_used": 5
+  },
+  "9002": {
+    "tag": "ds_assignment_2_clustering",
+    "last_used": "2026-01-24T16:25:35.140402+00:00",
+    "times_used": 3
+  },
+  "9001": {
+    "tag": "da_assignment_1_pca",
+    "last_used": "2026-01-24T18:23:45.950839+00:00",
+    "times_used": 6
+  },
+  "9100": {
+    "tag": "Untagged",
+    "last_used": "2026-01-28T10:32:30.725826+00:00",
+    "times_used": 4
+  },
+  "9003": {
+    "tag": "anamoly_detection_assignment",
+    "last_used": "2026-01-24T19:22:32.751643+00:00",
+    "times_used": 2
+  }
+}
